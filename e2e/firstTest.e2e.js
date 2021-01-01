@@ -1,4 +1,4 @@
-describe("Example", () => {
+describe('Example', () => {
   beforeAll(async () => {
     await device.launchApp();
   });
@@ -7,7 +7,7 @@ describe("Example", () => {
     await device.reloadReactNative();
   });
 
-  test("Should have welcome text", async () => {
-    await expect(element(by.text("Welcome to react"))).toBeVisible();
+  test('Should have welcome text', async () => {
+    await expect(element(by.text('Welcome to react'))).toBeVisible();
   });
 });
