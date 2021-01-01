@@ -8,7 +8,8 @@
     "web": "expo start --web",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint *.js e2e/*.js __tests__/**/*.js"
+    "lint": "eslint *.js e2e/*.js __tests__/**/*.js",
+    "detox:test": "detox test -r"
   },
   "dependencies": {
     "expo": "~40.0.0",
