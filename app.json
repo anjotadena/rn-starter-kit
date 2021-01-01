@@ -1,0 +1,12 @@
+{
+  "name": "rn-starter-kit",
+  "displayName": "rn-starter-kit",
+  "expo": {
+    "name": "rn-starter-kit",
+    "slug": "rn-starter-kit",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
