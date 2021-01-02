@@ -27,5 +27,6 @@ module.exports = {
     "func-names": 0,
     quotes: ["error", "double"],
     "jsx-quotes": ["error", "prefer-single"],
+    "comma-dangle": ["ignore"],
   },
 };
