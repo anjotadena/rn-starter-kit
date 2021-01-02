@@ -7,7 +7,7 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: "module",
   },
-  plugins: ["detox", "jest", "prettier"],
+  plugins: ["detox", "jest"],
   env: {
     es2021: true,
     "detox/detox": true,
@@ -26,6 +26,6 @@ module.exports = {
     "react/jsx-filename-extension": [1, { extensions: [".js", ".jsx"] }],
     "func-names": 0,
     quotes: ["error", "double"],
-    "jsx-quotes": ["error", "single"],
+    "jsx-quotes": ["error", "prefer-single"],
   },
 };
